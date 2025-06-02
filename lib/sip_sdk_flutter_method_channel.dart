@@ -162,4 +162,14 @@ class MethodChannelSipSdkFlutter extends SipSdkFlutterPlatform {
   Future<void> dump() async {
     return await methodChannel.invokeMethod<void>('dump');
   }
+
+  @override
+  Future<void> handleIpChange() async {
+    return await methodChannel.invokeMethod<void>('handleIpChange');
+  }
+
+  @override
+  Future<void> destroy() async {
+    return await methodChannel.invokeMethod<void>('destroy');
+  }
 }

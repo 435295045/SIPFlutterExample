@@ -54,4 +54,12 @@ class SipSdkFlutter {
   Future<void> dump() {
     return SipSdkFlutterPlatform.instance.dump();
   }
+
+  Future<void> handleIpChange() {
+    return SipSdkFlutterPlatform.instance.handleIpChange();
+  }
+
+  Future<void> destroy() {
+    return SipSdkFlutterPlatform.instance.destroy();
+  }
 }

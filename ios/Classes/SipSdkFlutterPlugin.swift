@@ -80,6 +80,18 @@ public class SipSdkFlutterPlugin: NSObject, FlutterPlugin {
             } else {
                 result(FlutterError(code: "INVALID_ARGUMENT", message: "Expected dictionary", details: nil))
             }
+        case "handleIpChange":
+            if let args = call.arguments as? [String: Any] {
+                handleIpChange(args: args, result: result)
+            } else {
+                result(FlutterError(code: "INVALID_ARGUMENT", message: "Expected dictionary", details: nil))
+            }
+        case "destroy":
+            if let args = call.arguments as? [String: Any] {
+                destroy(args: args, result: result)
+            } else {
+                result(FlutterError(code: "INVALID_ARGUMENT", message: "Expected dictionary", details: nil))
+            }
         default:
             result(FlutterMethodNotImplemented)
         }
@@ -356,6 +368,22 @@ public class SipSdkFlutterPlugin: NSObject, FlutterPlugin {
      */
     private func dump(args _: [String: Any], result: @escaping FlutterResult) {
         SIPHandle.dump()
+        result(nil)
+    }
+
+    /**
+     *  IP 发生改变调用
+     */
+    private func handleIpChange(args _: [String: Any], result: @escaping FlutterResult) {
+        SIPHandle.handleIpChange()
+        result(nil)
+    }
+
+    /**
+     *  销毁
+     */
+    private func destroy(args _: [String: Any], result: @escaping FlutterResult) {
+        SIPHandle.destroy()
         result(nil)
     }
 }

@@ -79,6 +79,10 @@ public class SipSdkFlutterPlugin implements FlutterPlugin, MethodCallHandler {
             hangup(call.arguments(), result);
         } else if (call.method.equals("dump")) {
             dump(call.arguments(), result);
+        } else if (call.method.equals("destroy")) {
+            destroy(call.arguments(), result);
+        } else if (call.method.equals("handleIpChange")) {
+            handleIpChange(call.arguments(), result);
         } else {
             result.notImplemented();
         }
@@ -141,7 +145,6 @@ public class SipSdkFlutterPlugin implements FlutterPlugin, MethodCallHandler {
         String baseUrl = MapUtils.get(args, "baseUrl", "");
         String clientId = MapUtils.get(args, "clientId", "");
         String clientSecret = MapUtils.get(args, "clientSecret", "");
-        Log.e("sssss","-------------------------------------clientId: "+clientId);
         SIPManage.instance().init(context, baseUrl, clientId, clientSecret, config, mediaConfig);
         result.success(null);
     }
@@ -306,6 +309,16 @@ public class SipSdkFlutterPlugin implements FlutterPlugin, MethodCallHandler {
      */
     private void dump(Map<String, Object> args, MethodChannel.Result result) {
         SIPSDK.dump();
+        result.success(null);
+    }
+
+    private void destroy(Map<String, Object> args, MethodChannel.Result result) {
+        SIPSDK.destroy();
+        result.success(null);
+    }
+
+    private void handleIpChange(Map<String, Object> args, MethodChannel.Result result) {
+        SIPSDK.handleIpChange();
         result.success(null);
     }
 }

@@ -120,6 +120,7 @@ public struct REGConfig {
   public static func hangup(code: Swift.UInt32, callUuid: Swift.UInt)
   public static func dump()
   public static func removeLicense()
+  public static func handleIpChange()
   @objc deinit
 }
 public struct VideoMediaConfig {

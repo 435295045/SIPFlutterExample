@@ -75,4 +75,12 @@ abstract class SipSdkFlutterPlatform extends PlatformInterface {
   Future<void> dump() {
     throw UnimplementedError('dump() has not been implemented.');
   }
+
+  Future<void> handleIpChange() {
+    throw UnimplementedError('dump() has not been implemented.');
+  }
+
+  Future<void> destroy() {
+    throw UnimplementedError('destroy() has not been implemented.');
+  }
 }

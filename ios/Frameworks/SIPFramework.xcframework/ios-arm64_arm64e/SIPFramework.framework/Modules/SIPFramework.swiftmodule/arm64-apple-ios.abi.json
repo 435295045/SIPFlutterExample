@@ -5964,6 +5964,29 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleIpChange",
+            "printedName": "handleIpChange()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SIPFramework9SIPHandleC14handleIpChangeyyFZ",
+            "mangledName": "$s12SIPFramework9SIPHandleC14handleIpChangeyyFZ",
+            "moduleName": "SIPFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
