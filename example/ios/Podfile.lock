@@ -1,0 +1,34 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - sip_sdk_flutter (0.0.1):
+    - Flutter
+    - SIPFramework
+  - SIPFramework (1.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - sip_sdk_flutter (from `.symlinks/plugins/sip_sdk_flutter/ios`)
+  - SIPFramework (from `../../ios/Frameworks`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  sip_sdk_flutter:
+    :path: ".symlinks/plugins/sip_sdk_flutter/ios"
+  SIPFramework:
+    :path: "../../ios/Frameworks"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  sip_sdk_flutter: 7e7596f24de2b70ea38b4a41e84912652e0aebaf
+  SIPFramework: fd5e8bb633dbf1c64afa3183808676bccba3db1a
+
+PODFILE CHECKSUM: f27642a64aec030c7e4276c60e3037832d1eb345
+
+COCOAPODS: 1.16.0
