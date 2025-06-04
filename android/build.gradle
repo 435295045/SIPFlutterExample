@@ -55,6 +55,6 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.0'
-    implementation 'com.sip.sdk:sipsdk:1.0.5'
+    implementation 'com.sip.sdk:sipsdk:1.0.7'
     implementation 'com.openh264:openh264api:1.0.0'
 }

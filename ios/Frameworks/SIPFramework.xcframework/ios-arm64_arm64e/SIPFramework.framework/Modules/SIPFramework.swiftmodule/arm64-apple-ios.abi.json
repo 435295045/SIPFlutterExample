@@ -6709,13 +6709,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "SIPFramework",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIPFramework"
       },
       {
         "kind": "Import",
@@ -7565,28 +7572,28 @@
     {
       "filePath": "\/Volumes\/project\/ios\/SIPSDKExample\/SIPFramework\/Utils\/SIPSDKHTTPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 164,
+      "offset": 184,
       "length": 31,
       "value": "\"\/api\/client\/anon\/client_token\""
     },
     {
       "filePath": "\/Volumes\/project\/ios\/SIPSDKExample\/SIPFramework\/Utils\/SIPSDKHTTPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 229,
+      "offset": 249,
       "length": 20,
       "value": "\"\/api\/license\/grant\""
     },
     {
       "filePath": "\/Volumes\/project\/ios\/SIPSDKExample\/SIPFramework\/Utils\/SIPSDKHTTPUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 289,
+      "offset": 309,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Volumes\/project\/ios\/SIPSDKExample\/SIPFramework\/Utils\/SIPSDKHTTPUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2413,
+      "offset": 4377,
       "length": 4,
       "value": "true"
     },

@@ -51,7 +51,7 @@ class SIPManage implements SIPSDKCallbacks {
   void registrar() {
     final config = SIPSDKRegistrarConfig(
       domain: "test.com",
-      username: "RM-1-1-1-1-1-1",
+      username: "RM-1-1-1-1-1-9",
       password: "123456",
       transport: "tcp",
       serverAddr: "43.160.204.96",
@@ -70,7 +70,7 @@ class SIPManage implements SIPSDKCallbacks {
         password: "test",
       ),
       localConfig: SIPSDKLocalConfig(
-        username: "RM-1-1-1-1-1-1",
+        username: "RM-1-1-1-1-1-9",
         enableStreamControl: false,
         streamElapsed: 0,
         startKeyframeCount: 120,
