@@ -22,6 +22,14 @@ typedef enum
 
 typedef enum
 {
+    // 内部控制时序
+    AUDIO_TIME_TYPE_INTERNAL = 0,
+    // 自主控制时序(如 alsa 需要自己控制)
+    AUDIO_TIME_TYPE_AUTONOMIC = AUDIO_TIME_TYPE_INTERNAL + 1,
+} audio_time_type;
+
+typedef enum
+{
     PORT_SIGNATURE_TYPE_PLAYER = 0,
     PORT_SIGNATURE_TYPE_STREAM = 1,
     PORT_SIGNATURE_TYPE_TEE = 2,

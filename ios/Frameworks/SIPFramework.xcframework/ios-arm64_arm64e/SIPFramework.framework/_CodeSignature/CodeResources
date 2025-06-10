@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/sip_sdk_media.h</key>
 		<data>
-		tMvTsOuqvZDTVgoW6faTEov8RSo=
+		wVhuYWVGJhMcEWsXozn/SLjbN7s=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/SIPFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		b1kOWqcUPtKaWE3MC0uUxSgLIWg=
+		HpMWZYmofYcFwafssionWpqK1Fs=
 		</data>
 		<key>Modules/SIPFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/SIPFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RnRt60fB0ubH4wyO1b7b9BjVwxk=
+		sf1c0nmXqsgPdOt3AAAITNeOamg=
 		</data>
 		<key>Modules/SIPFramework.swiftmodule/arm64e-apple-ios.abi.json</key>
 		<data>
-		b1kOWqcUPtKaWE3MC0uUxSgLIWg=
+		HpMWZYmofYcFwafssionWpqK1Fs=
 		</data>
 		<key>Modules/SIPFramework.swiftmodule/arm64e-apple-ios.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/SIPFramework.swiftmodule/arm64e-apple-ios.swiftmodule</key>
 		<data>
-		YoKo+kSU3R+U50/P/gr72Qd21cQ=
+		w2vwEgkA9paT70bEIRnODVgV6Yg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xIwJOHacAPYcih7CCv8jvzZx3OX2oLCcxCCGcLep9cA=
+			TjmhuhmoouP6z0MUjvr158DVKQfEUCJCK1okE+tVzdQ=
 			</data>
 		</dict>
 		<key>Modules/SIPFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9cH+H8FW6RVwi4xdhuHGK4YJXkFp9MtiLo0NU+d4VrU=
+			UwszbAOE3uxFtQrpONBrqc1cjQnQOf+rCAr4/35Vrak=
 			</data>
 		</dict>
 		<key>Modules/SIPFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -135,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NuqlDZsPJbxZR0oJH3VqzSavhtJyID4qfNyrD8zZcw8=
+			8Aaw5lBDGlWlsSkGOu2BboXPmvSAnv1zuFpcddfZ2HI=
 			</data>
 		</dict>
 		<key>Modules/SIPFramework.swiftmodule/arm64e-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9cH+H8FW6RVwi4xdhuHGK4YJXkFp9MtiLo0NU+d4VrU=
+			UwszbAOE3uxFtQrpONBrqc1cjQnQOf+rCAr4/35Vrak=
 			</data>
 		</dict>
 		<key>Modules/SIPFramework.swiftmodule/arm64e-apple-ios.private.swiftinterface</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			quwAuTX7+AaMI4aGUzTizquueQLwtzlgi6bA27gdkLo=
+			Q+JEsOPM8wU6PFAMj79W31tdLoKKlFlIZsQMdwTTid0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
