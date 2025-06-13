@@ -202,6 +202,7 @@ extern "C"
         sip_sdk_observer *sdk_observer;          // 状态回调
         sdk_bool_t allow_multiple_connections;   // 允许多个连接
         sdk_bool_t domain_name_direct_registrar; // 域名注册
+        sdk_bool_t transport_stun_server;        // 是否使用stun解析地址构建transport(如果配置stun,又需要局域网IP呼叫需要配置SDK_FALSE)
         sdk_bool_t does_it_support_broadcast;    // 是否支持广播
         sip_sdk_stun_config stun_config;         // stun 服务器
     } sip_sdk_common_config;

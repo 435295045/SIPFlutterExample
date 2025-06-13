@@ -68,7 +68,6 @@ public class H264CodecImpl extends H264Codec {
 
     @Override
     public H264Data encode() {
-        Log.e("encode", "------------------------------------00000000");
         CameraInfo currentCameraInfo = CameraHandle.instance().getCurrentCameraInfo();
         if (currentCameraInfo != null) {
             if (cameraInfo == null ||
