@@ -1,15 +1,11 @@
-# sip_sdk_flutter
+1.SIP Flutter 插件
 
-A new Flutter plugin project.
+2.插件是原生Android/iOS也可以用于原生Android/iOS
 
-## Getting Started
+3.需要自己在里面修改注册服务器地址
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+1.SIP Flutter Plugin
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2.The plugin is based on native Android/iOS and can also be used in native Android/iOS projects.
 
+3.You need to manually modify the registration server address inside the plugin.
